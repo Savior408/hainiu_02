@@ -18,9 +18,20 @@ public class AppTest {
         assertTrue(true);
     }
 
+    @Test
     public void startTest() {
         String mvn = App.start();
         assertEquals("start", mvn);
+    }
+
+    @Test
+    public void loginTest(){
+        App app = new App();
+
+        boolean login = app.login("hainiu","12345");
+
+        assertTrue(login);
+
     }
 }
 
