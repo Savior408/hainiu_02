@@ -10,6 +10,9 @@ public class App {
 
     public static String start(){
         System.out.println("start");
+        System.out.println("aaa");
+        System.out.println("bbb");
+        System.out.println("ccc");
         return "start";
     }
 
